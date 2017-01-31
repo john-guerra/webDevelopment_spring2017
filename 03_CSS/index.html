@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ISIS-3710 Web development, HTML</title>
+    <title>ISIS-3710 Web development, CSS</title>
     <meta charset="utf-8">
     <meta name="author" content="John Alexis Guerra Gomez">
     <meta name="description" content="ISIS-3710 Web development, los Andes University">
@@ -19,11 +19,11 @@
     <div class="reveal">
       <div class="slides">
         <section id="title">
-          <h2>HTML</h2><img src="../img/universidad_de_los_andes_logo@2x.png" alt="Los Andes University" class="logo"><br>
+          <h2>CSS</h2><img src="../img/universidad_de_los_andes_logo@2x.png" alt="Los Andes University" class="logo"><br>
           <p class="small"><a href="http://johnguerra.co/" target="_blank"><strong>John Alexis Guerra Gómez</strong></a></p>
           <p class="tiny email">ja.guerrag[at}uniandes.edu.co |<a href="http://twitter.com/duto_guerra" target="_blank"> @duto_guerra</a><br>
           </p><br>
-          <p class="tiny">Slides:<a href="http://johnguerra.co/lectures/webDevelopment_spring2017/02_HTML/" target="_blank">http://johnguerra.co/lectures/webDevelopment_spring2017/02_HTML/</a></p>
+          <p class="tiny">Slides:<a href="http://johnguerra.co/lectures/webDevelopment_spring2017/03_CSS/" target="_blank">http://johnguerra.co/lectures/webDevelopment_spring2017/03_CSS/</a></p>
           <p class="tiny">Class page:<a href="http://johnguerra.co/classes/webDevelopment_spring_2017/" target="_blank">http://johnguerra.co/classes/webDevelopment_spring_2017/</a></p>
         </section>
         <section>
@@ -39,80 +39,55 @@
           <section>
             <h2>Random Questions</h2>
             <ul>
-              <li class="fragment">What's a class?</li>
-              <li class="fragment">What's an attribute?</li>
-              <li class="fragment">What's the id?</li>
-              <li class="fragment">What's the difference between the head and the body</li>
-              <li class="fragment">Content vs Style</li>
-              <li class="fragment">What's the DOM</li>
+              <li class="fragment">How do you style a class?</li>
+              <li class="fragment">How do you style a class only inside a link?</li>
+              <li class="fragment">What should you use id or class?</li>
+              <li class="fragment">How do you style an element inline?</li>
+              <li class="fragment">Why would you add a rgba after a rgb property?</li>
+              <li class="fragment">What is Google Fonts?</li>
             </ul>
           </section>
         </section>
         <section>
           <section>
+            <h2>When to use pxs, ems and %?</h2>
+            <ul>
+              <li class="fragment"><strong>pxs</strong> fixed. Not dependent on screen size.</li>
+              <li class="fragment"><strong>ems</strong> Relative to font-size. Good for fonts on responsive designs.</li>
+              <li class="fragment"><strong>%</strong> Relative to height/width. Good for divs on responsive designs.</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Margins</h2><img src="images/margins_and_padding.png" class="blocks">
+          </section>
+          <section>
+            <h2>Z-index</h2>
+            <p>Doesn't work with SVG 😞</p>
+          </section>
+          <section>
+            <h2>Gradients</h2>
+            <p>Search online for generators. e.g. <a href="http://www.colorzilla.com/gradient-editor/">Colorzilla gradient editor</a></p>
+          </section>
+          <section>
             <h2>Group Exercise</h2>
-            <p>We have the <a href="images/WebDevUniandes.json">tweets</a> collected from yesterday for the class. Let's design a web page to show display and grade them.</p>
-          </section>
-          <section>
-            <h2>Audience and objective</h2>
-            <ul>
-              <li class="fragment">Who are we targeting? <strong>Users</strong></li>
-              <li class="fragment">What do we want them to do? <strong>Task</strong></li>
-            </ul>
-          </section>
-          <section>
-            <h2 class="demo">Resources</h2>
-            <p>What do we have to show?</p>
-            <ul class="small">
-              <li class="fragment">Tweets
-                <ul>
-                  <li class="fragment">Handle</li>
-                  <li class="fragment">Text</li>
-                  <li class="fragment">User image</li>
-                  <li class="fragment">Date</li>
-                </ul>
-              </li>
-              <li class="fragment">University Logo</li>
-              <li class="fragment">What else?</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Wireframe it</h2>
-          </section>
-          <section>
-            <h2>Test it</h2>
-          </section>
-          <section>
-            <h2>Code it</h2>
-            <ul>
-              <li class="fragment">We can use <a href="http://jsfiddle.net">JSFiddle</a> or <a href="http://codepen.com">Codepen</a> to write it online</li>
-            </ul>
-            <ul>
-              <li class="fragment">Or we can build it locally (I recommend <a href="https://www.sublimetext.com/3">Sublime</a> + <a href="http://emmet.io/">emmet</a>)</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Web Developer tools</h2>
+            <p>Let's continue visualizing <a href="images/tweets.json">tweets</a> collected for the class</p>
           </section>
         </section>
         <section>
           <section>
             <h2>Exercise</h2>
-            <p>Design and write the HTML of your home page</p>
+            <p>Improve the HTML of your homepage with some CSS</p>
             <ul>
-              <li class="fragment">Code it and put it on github</li>
+              <li class="fragment">Share your results</li>
             </ul>
-          </section>
-          <section>
-            <h2>Share your results</h2>
           </section>
         </section>
         <section>
           <section>
             <h2>Required Readings Next session</h2>
             <ul>
-              <li class="fragment"><a href="https://www.codecademy.com/learn/learn-html-css" target="_blank">https://www.codecademy.com/learn/learn-html-css</a><span> CSS Section</span></li>
-              <li class="fragment"><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web" target="_blank">https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web</a><span>CSS Basics</span></li>
+              <li class="fragment"><a href="http://getbootstrap.com/getting-started/" target="_blank">http://getbootstrap.com/getting-started/</a></li>
+              <li class="fragment">(Optional)<a href="https://www.codecademy.com/learn/make-a-website" target="_blank">https://www.codecademy.com/learn/make-a-website</a></li>
             </ul>
           </section>
         </section>
